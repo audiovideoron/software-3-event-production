@@ -25,11 +25,11 @@ The four documents in `specs/` are the program. The image in `renders/` is one o
 
 # I Wrote My Event Setup in English. The AI Drew the Floor Plan.
 
-This morning I planned an 80-person event in a 118 × 60 ft ballroom without opening Cvent. I wrote three short specs in plain English — one describing the room, one listing my AV inventory, one describing the event — and prompted an AI to draw the floor plan. A few follow-up prompts to dial it in, and there it was.
+I planned an 80-person event in a 118 × 60 ft ballroom using english as the programming language. I wrote three short specs in plain English; one describes the room, the second lists my equipment inventory, and finally one that describes the event. I prompted an AI to draw the floor plan and after a few follow-up prompts, to dial it in, there it was.
 
 ## Software 3.0, applied to a ballroom
 
-Andrej Karpathy calls this **Software 3.0**: Software 1.0 was hand-written code, Software 2.0 was learned neural-network weights, Software 3.0 is the prompt itself. English is the programming language. The AI is the runtime.
+Andrej Karpathy calls this **Software 3.0**. Software 1.0 was hand-written code, 2.0 was learned neural-network weights, 3.0 is the prompt. English is the programming language and AI is the runtime.
 
 ## Three documents in, one drawing out
 
@@ -45,7 +45,7 @@ I dropped all three in a folder and asked the AI to draw a floor plan in the sty
 
 ## The fourth file I didn't know I needed
 
-The first three files describe *what is*. None of them tell the AI *how to combine them*.
+The first three files describe *what is*, but the AI needs to be told *how to combine them*.
 
 So I wrote a fourth file: the **playbook**. It holds the rules I'd been keeping in my head:
 
@@ -70,7 +70,7 @@ English is the new programming language. The spec is the program. The AI is the 
 Want to try this with your own ballroom and gear? Fork the repo and adapt the spec files.
 
 1. **Replace `specs/venue_minnesota_valley.md`** with a file describing your room. Dimensions, doors, fixed infrastructure, any quirks the AI needs to know about.
-2. **Edit `specs/inventory.md`** to reflect the AV gear you actually own, with the standard placement conventions you use.
+2. **Edit `specs/inventory.md`** to reflect the AV inventory, with the placement conventions you use.
 3. **Rewrite `specs/event_sample_group.md`** as a description of one specific event — attendee count, format, seating style, stage size, the gear you want to deploy.
 4. **Adjust `specs/production_playbook.md`** with your house rules. Add new rules as you discover the ones you've been keeping in your head.
 5. **Point an AI at the folder** and ask it to draw the floor plan in whatever visual style you prefer. Expect a few rounds of correction; capture each correction as a new sentence in the playbook.
