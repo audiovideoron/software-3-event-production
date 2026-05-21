@@ -25,11 +25,11 @@ The four documents in `specs/` are the program. The image in `renders/` is one o
 
 # I Wrote My Event Setup in English. The AI Drew the Floor Plan.
 
-I planned an 80-person event in a 118 × 60 ft ballroom using english as the programming language. I wrote three short specs in plain English; one describes the room, the second lists my equipment inventory, and finally one that describes the event. I prompted an AI to draw the floor plan and after a few follow-up prompts, to dial it in, there it was.
+I planned an 80-person event in a 118 × 60 ft ballroom using english as the programming language. I wrote three short specs in plain English; one describes the room, the second lists my equipment inventory, and finally the third which describes the event. I prompted an AI to draw the floor plan and after a few follow-up prompts, to dial it in, there it was.
 
 ## Software 3.0, applied to a ballroom
 
-Andrej Karpathy calls this **Software 3.0**. Software 1.0 was hand-written code, 2.0 was learned neural-network weights, 3.0 is the prompt. English is the programming language and AI is the runtime.
+Andrej Karpathy calls this **Software 3.0**. Software 1.0 was hand-written code, 2.0 was learned neural-network weights, 3.0 is the prompt. English is the programming language and AI is the runtime. Karpathy cofounded OpenAI, coined the term "vibe coding," and cracked autopilot for Tesla.
 
 ## Three documents in, one drawing out
 
@@ -43,7 +43,7 @@ The workflow is three plain-English files in a folder.
 
 I dropped all three in a folder and asked the AI to draw a floor plan in the style of my usual diagramming tool.
 
-## The fourth file I didn't know I needed
+## The fourth file I didn't know would be needed
 
 The first three files describe *what is*, but the AI needs to be told *how to combine them*.
 
@@ -57,7 +57,7 @@ So I wrote a fourth file: the **playbook**. It holds the rules I'd been keeping 
 
 ## Why this matters
 
-The floor plan is just one output. The same documents can drive sales, labor estimates, vendor emails, bills of materials, load-in schedules. The asset isn't the drawing. The asset is the **spec set**.
+The floor plan is just one output. The same documents can drive sales, labor estimates, vendor emails, bills of materials, load-in schedules. The asset isn't the drawing. It's the **spec set**.
 
 ## The bigger point
 
